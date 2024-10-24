@@ -54,4 +54,5 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.androidx.webkit)
+    implementation(libs.picasso)
 }

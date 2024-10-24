@@ -2,14 +2,12 @@ package at.htlleonding.junglebook
 
 import at.htlleonding.junglebook.checkpoint.Checkpoint
 import at.htlleonding.junglebook.journal.Journal
-import okhttp3.Call
 import okhttp3.MultipartBody
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Body
 import retrofit2.http.GET
-import retrofit2.http.Multipart
 import retrofit2.http.POST
 
 interface ApiService {
