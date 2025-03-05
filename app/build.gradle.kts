@@ -52,6 +52,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.retrofit)
+    implementation(libs.okhttp)
     implementation(libs.converter.gson)
     implementation(libs.androidx.webkit)
     implementation(libs.picasso)
